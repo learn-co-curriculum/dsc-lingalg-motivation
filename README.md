@@ -1,1 +1,0 @@
-# ds-lin_alg-motiv-readme
