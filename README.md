@@ -1,18 +1,29 @@
 
-# Linear Algebra - Motivation
+# Linear Algebra - A Motivation
+
+## Introduction
+
+Algebra & Statistics are founding steps for data science & machine learning. Machine learning is as much about linear algebra, probability theory and statistics (especially graphical models) and information theory as much as data analysis. In this section of the course, we shall focus at Linear Algebra, which is a pre-requisite for almost any technical field of knowledge today in about any technical discipline, including computer science and data science.  This lesson attempts to present a quick motivation on how and why linear algebra is a valuable skills for data analysts.
+
 
 ## Objectives
 
-* Understand and state the importance of linear algebra for machine learning.
-* Learn about key ML areas where Linear Algebra is used for analysis and other tasks. 
+You will be able to:
+
+* Understand and state the importance of linear algebra in the fields of data science and machine learning
+* Describe the areas in AI and machine learning where Linear Algebra might be used for advanced analytics
 
 ## Background 
 
-In the upcoming section of the course, we shall focus at **Linear Algebra**, which is a pre-requisite for almost any technical field of knowledge today in about any technical discipline, including computer science and data science.  
+Linear Algebra is a continuous form of mathematics and is applied throughout science and engineering because it allows you to model natural phenomena and to compute them efficiently. Because it is a form of continuous and not discrete mathematics, a lot of computer scientists don’t have a lot of experience with it. Linear Algebra is also central to almost all areas of mathematics like geometry and functional analysis. Its concepts are a crucial prerequisite for understanding the theory behind Data Science. You don’t need to understand Linear Algebra before getting started in Data Science, but at some point, you may want to gain a better understanding of how the different Machine Learning algorithms really work under the hood. So if you really want to be a professional in this field, you will have to master the parts of Linear Algebra that are important for Machine Learning.
 
-![](linalg.jpg)
+
+
+<img src="linalg.jpg" width=600>
 
 You might already know a number of linear algebraic concepts and operations like matrix multiplication, calculating determinants, cross-products and eigenvectors/eigenvalues etc (dont worry if you dont, we shall cover these in the course). As a data scientist, it is imperative that you carry a theoretic, as well as a practical understanding of these and other similar concepts alongside their applications in real world problem solving. 
+
+#### An Analogy 
 
 Think of a simple example where you first learn about a `sine` function as an infinite polynomial while learning trigonometry. Students normally practice this function by passing different values to it and getting the expected results, and manage to relate this to triangles and vertices. When learning advanced physics, students get to learn more applications of sine and other similar functions in the area of sound and light. In the domain of Signal Processing for 1D data, these functions pop up again to help you solve filtering, time-series related problems. An introduction to numeric computation around sine functions can not alone help you understand its wider application areas. In fact sine functions are everywhere in the universe from music to light/sound/radio waves, from pendulum oscillations to alternating current. 
 
@@ -63,7 +74,19 @@ Dimensionality reduction techniques which are heavily employed in the field of b
 
 We can have some ideas on whats involved in field of linear algebra by having a quick glance at the word-cloud below that attempts to highlight key linear algebraic terms.
 
-![](http://faculty.tru.ca/rtaylor/math1300/linalg_wordcloud.jpg)
+<img src="http://faculty.tru.ca/rtaylor/math1300/linalg_wordcloud.jpg" width = 500>
 
 
 We shall go through an introductory series of lessons and labs that will cover basic ideas of linear algebra: an understanding of vectors and matrices with some basic operations that can be performed on these mathematical entities. We shall implement these ideas in python, in an attempt to give you foundation knowledge towards dealing with these algebraic entities and their properties. These skills will be applied in advanced machine learning sections later in the course. 
+
+## Further Reading 
+
+[Youtube: Why Linear Algebra](https://github.com/learn-co-curriculum/dsc-2-13-03-lingalg-motivation)
+
+[Boost your data science skills. Learn linear algebra.](https://towardsdatascience.com/boost-your-data-sciences-skills-learn-linear-algebra-2c30fdd008cf)
+
+[Quora: Applications of Linear Algebra in Deep Learning](https://www.quora.com/What-are-the-applications-of-linear-algebra-in-machine-learning)
+
+## Summary 
+
+In this lesson, we worked towards developing a motivation for learning linear algebra for data analaysis and machine learning. We looked at some use cases in practical machine learning problems where linear algebra and matrix manipulation might come in handy. In the following lessons, we shall look at some of these manipulations, working our way towards solving a regression problem using linear algebraic operations only. 
