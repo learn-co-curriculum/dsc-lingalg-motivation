@@ -1,5 +1,5 @@
 
-# Linear Algebra - A Motivation
+# Motivation for Linear Algebra in Data Science
 
 ## Introduction
 
@@ -23,12 +23,12 @@ Linear Algebra is a continuous form of mathematics and is applied throughout sci
 
 You might already know a number of linear algebraic concepts and operations like matrix multiplication, calculating determinants, cross-products and eigenvectors/eigenvalues etc (dont worry if you dont, we shall cover these in the course). As a data scientist, it is imperative that you carry a theoretic, as well as a practical understanding of these and other similar concepts alongside their applications in real world problem solving. 
 
-#### An Analogy 
+### An Analogy 
 
 Think of a simple example where you first learn about a `sine` function as an infinite polynomial while learning trigonometry. Students normally practice this function by passing different values to it and getting the expected results, and manage to relate this to triangles and vertices. When learning advanced physics, students get to learn more applications of sine and other similar functions in the area of sound and light. In the domain of Signal Processing for 1D data, these functions pop up again to help you solve filtering, time-series related problems. An introduction to numeric computation around sine functions can not alone help you understand its wider application areas. In fact sine functions are everywhere in the universe from music to light/sound/radio waves, from pendulum oscillations to alternating current. 
 
 
-## Why Linear Algebra 
+## Why Linear Algebra?
 
 *Linear algebra is the branch of mathematics concerning vector spaces and linear relationships between such spaces. It includes the study of lines, planes, and subspace, but is also concerned with properties common to all vector spaces.*
 
@@ -77,7 +77,7 @@ We can have some ideas on whats involved in field of linear algebra by having a 
 <img src="http://faculty.tru.ca/rtaylor/math1300/linalg_wordcloud.jpg" width = 500>
 
 
-We shall go through an introductory series of lessons and labs that will cover basic ideas of linear algebra: an understanding of vectors and matrices with some basic operations that can be performed on these mathematical entities. We shall implement these ideas in python, in an attempt to give you foundation knowledge towards dealing with these algebraic entities and their properties. These skills will be applied in advanced machine learning sections later in the course. 
+We'll go through an introductory series of lessons and labs that will cover basic ideas of linear algebra: an understanding of vectors and matrices with some basic operations that can be performed on these mathematical entities. We shall implement these ideas in python, in an attempt to give you foundation knowledge towards dealing with these algebraic entities and their properties. These skills will be applied in advanced machine learning sections later in the course. 
 
 ## Further Reading 
 
