@@ -18,10 +18,6 @@ You will be able to:
 
 Linear Algebra is foundational for a wide range of areas in mathematics, eg. geometry. The concepts of linear algebra are important if you want to understand how certain data science processes work. While having a deep understanding of linear algebra may not be mandatory, some basic knowledge is undoubtedly extremely helpful in your journey towards becoming a data scientist.
 
-
-<img src="images/linalg.jpg" width="500">
-
-
 You may already know a number of linear algebraic concepts without even knowing it. Examples are: matrix multiplication and performing cross-products. Later on, you'll learn more complex algebraic concepts like the calculation of matrix determinants, cross-products, and eigenvalues/eigenvectors. As a data scientist, it is important to know some the theories as well as having practical understanding of these concepts in a real-world setting.
 
 ## An Analogy 
@@ -69,12 +65,7 @@ Dimensionality reduction techniques, which are heavily used when dealing with bi
 
 <img src="images/PCA_img.png" width = "800">
 
-Great, you now know about some key areas where linear algebra is used! Have a look at the wordcloud below to get a sense of the key linear algebraic terms.
-
-<img src="images/linalg_wordcloud.jpg" width = "600">
-
-
-In what's next, you'll go through an introductory series of lessons and labs that will cover basic ideas of linear algebra: an understanding of vectors and matrices with some basic operations that can be performed on these mathematical entities. We will implement these ideas in Python, in an attempt to give you foundation knowledge to deal with these algebraic entities and their properties. These skills will be applied in advanced machine learning sections later in the course. 
+Great, you now know about some key areas where linear algebra is used! In what's next, you'll go through an introductory series of lessons and labs that will cover basic ideas of linear algebra: an understanding of vectors and matrices with some basic operations that can be performed on these mathematical entities. We will implement these ideas in Python, in an attempt to give you foundation knowledge to deal with these algebraic entities and their properties. These skills will be applied in advanced machine learning sections later in the course. 
 
 ## Further Reading 
 
