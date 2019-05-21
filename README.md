@@ -34,9 +34,9 @@ Following are some of the areas where linear algebra is commonly practiced in th
 
 ### Computer Vision / Image Processing
 
-<img src="images/img_proc_matlab.png" width="600">
+<img src="images/rgb.png" width="600">
 
-Computers are designed to process binary information only (only 0s and 1s). How can an image such as Einstein's face  with multiple attributes like color be stored in a computer? This is achieved by storing the pixel intensities for red, blue and green colors in a matrix format. Color intensities can be coded into this matrix and can be processed further for analysis and other tasks. Any operation performed on this image would likely use some form of Linear Algebra with matrices at the back end.
+Computers are designed to process binary information only (only 0s and 1s). How can an image such as the dog shown here, with multiple attributes like color, be stored in a computer? This is achieved by storing the pixel intensities for red, blue and green colors in a matrix format. Color intensities can be coded into this matrix and can be processed further for analysis and other tasks. Any operation performed on this image would likely use some form of Linear Algebra with matrices at the back end.
 
 ### Deep Learning - Tensors
 
@@ -45,7 +45,7 @@ Deep Learning is a sub-domain of machine learning, concerned with algorithms tha
 The algorithms usually store and process data in form of mathematical entities called tensors. A tensor is often thought of as a generalized matrix. That is, it could be a 1-D matrix (a vector is actually such a tensor),a 2-D matrix (like a data frame), a 3-D matrix (something like a cube of numbers), even a 0-D matrix (a single number), or a higher dimensional structure that is harder to visualize.
 
 
-<img src="images/tensor_ML.jpg" width="750">
+<img src="images/tensor.png" width="850">
 
 
 As shown in the image above where different input features are being extracted and stored as spatial locations inside a tensor which appears as a cube. A tensor encapsulates the scalar, vector and the matrix characteristics. For deep learning, creating and processing tensors and operations that are performed on these also require knowledge of linear algebra. Don't worry if you don't fully understand this right now, you'll learn more about tensors later!
@@ -63,7 +63,7 @@ This is just a short example, but you can store long documents in (giant) matric
 
 Dimensionality reduction techniques, which are heavily used when dealing with big data sets, use matrices to process data in order to reduce its dimensions. Principle Component Analysis (PCA) is a widely used dimensionality reduction technique that relies solely on calculating Eigenvectors and Eigenvalues to identify principal components as a set of highly reduced dimensions. The picture below is an example of a three dimensional data being mapped into two dimensions using matrix manipulations. 
 
-<img src="images/PCA_img.png" width = "800">
+<img src="images/pca.png" width = "900">
 
 Great, you now know about some key areas where linear algebra is used! In what's next, you'll go through an introductory series of lessons and labs that will cover basic ideas of linear algebra: an understanding of vectors and matrices with some basic operations that can be performed on these mathematical entities. We will implement these ideas in Python, in an attempt to give you foundation knowledge to deal with these algebraic entities and their properties. These skills will be applied in advanced machine learning sections later in the course. 
 
