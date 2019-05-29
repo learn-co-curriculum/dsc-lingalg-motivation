@@ -54,7 +54,7 @@ As shown in the image above where different input features are being extracted a
 
 Natural Language Processing (NLP) is another (very popular) area in Machine Learning dealing with text data. The most common techniques employed in NLP include BoW (Bag of Words) representation, Term Document Matrix etc. As shown in the image below, the idea is that words are being encoded as numbers and stored in a matrix format. Here, we just use 3 sentences to illustrate this:
 
-<img src="images/NLP_matrix2.png" width="580">
+<img src="images/NLPmatrix.png" width="650">
 
 
 This is just a short example, but you can store long documents in (giant) matrices like this. Using these counts in a matrix form can help perform tasks like semantic analysis, language translation, language generation etc.
